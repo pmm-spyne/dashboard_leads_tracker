@@ -1,0 +1,15 @@
+{
+  "name": "spyne-lead-sync",
+  "version": "1.0.0",
+  "description": "Daily sync: Factors.ai + HubSpot → Railway PostgreSQL",
+  "main": "sync.js",
+  "scripts": {
+    "start": "node sync.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
